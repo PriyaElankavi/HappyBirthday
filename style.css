@@ -42,7 +42,7 @@ body {
   width: 50px;
 }
 .memories{
-  background: url("images/7.jpg");
+  background: url("images/10.jpg");
   background-repeat:no-repeat;
   background-size: cover ;
   padding-top: 20px;
@@ -77,17 +77,37 @@ body {
   width:50px;
   border-radius: 50%;
 }
-.commentsDiv{
-  background: url("images/10.jpg");
+#infinity {
+  position: relative;
+  width: 212px;
+  height: 100px;
+  box-sizing: content-box;
+  align-items: center;
+}
+#infinity:before,
+#infinity:after {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border: 20px solid pink;
+  border-radius: 50px 50px 0 50px;
+  transform: rotate(-45deg);
+}
+#infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+.love{
+  background: url("images/11.jpg");
   background-repeat:no-repeat;
   background-size: cover ;
+  padding-top: 20px;
   width: 100%;
 }
-#views,#comment{
-  background-color: white;
-  height: 300px;
-  width: 400px;
-  border-radius: 5%;
-  padding: 5px;
-  overflow: auto;
-}
+
