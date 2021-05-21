@@ -51,7 +51,7 @@ body {
   width:100%;
 }
 .memories img{
-  width:300px;
+  width:280px;
   height:350px;
   border: 1px solid black;
 }
@@ -60,7 +60,7 @@ body {
   background-color: white;
   padding: 5px;
   margin-bottom: 10px;
-  width:300px;
+  width:280px;
 }
 .wishes{
   background: url("images/9.jpg");
