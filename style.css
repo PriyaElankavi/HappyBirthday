@@ -23,18 +23,20 @@ body {
 }
 .homeheader{
   background-color: #B3C7D6FF;
-  height:400px;
-  width: 400px;
+  height:480px;
+  width: 100%;
   opacity:0.8;
   position: absolute;
   margin: 10px;
 }
 .homecontent{
-  font-size: 50px;
-  position:relative;
-  margin-top:100px;
-  margin-left:100px;
-
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: black;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .pinkheart {
   fill: #E75480;
