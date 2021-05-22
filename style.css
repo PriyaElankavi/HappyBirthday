@@ -23,11 +23,10 @@ body {
 }
 .homeheader{
   background-color: #B3C7D6FF;
-  height:480px;
+  height:500px;
   width: 100%;
   opacity:0.8;
   position: absolute;
-  margin: 10px;
 }
 .homecontent{
   position: absolute; 
