@@ -23,12 +23,11 @@ body {
 }
 .homeheader{
   background-color: #B3C7D6FF;
-  height:450px;
+  height:400px;
   width: 400px;
   opacity:0.8;
-  border-radius:50%;
   position: absolute;
-  margin-top: 10px;
+  margin: 10px;
 }
 .homecontent{
   font-size: 50px;
@@ -44,14 +43,14 @@ body {
   width: 50px;
 }
 .memories{
-  background: url("images/10.jpg");
+  background: url("images/9.jpg");
   background-repeat:no-repeat;
   background-size: cover ;
   padding-top: 20px;
   width:100%;
 }
 .memories img{
-  width:280px;
+  width:250px;
   height:350px;
   border: 1px solid black;
 }
@@ -60,10 +59,10 @@ body {
   background-color: white;
   padding: 5px;
   margin-bottom: 10px;
-  width:280px;
+  width:250px;
 }
 .wishes{
-  background: url("images/9.jpg");
+  background: url("images/10.jpg");
   background-repeat:no-repeat;
   background-size: cover ;
   padding-top: 20px;
@@ -79,6 +78,13 @@ body {
   float:right;
   width:50px;
   border-radius: 50%;
+}
+.bday{
+  background: url("images/12.jpg");
+  background-repeat:no-repeat;
+  background-size: cover ;
+  padding-top: 20px;
+  width: 100%;
 }
 #infinity {
   position: relative;
@@ -124,4 +130,3 @@ body {
   height: 700px;
   width: 100%;
 }
-
